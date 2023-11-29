@@ -1,0 +1,81 @@
+/* 767px.css */
+@media only screen and (max-width: 767px) {
+    /* ACCUEIL */
+    .accueil {
+        padding-top: 50px;
+        justify-content: center;
+        border: 1px solid orange;
+        text-align: center;
+    }
+
+    .accueil h1 {
+        font-size: 4em;
+    }
+
+    .accueil p {
+        font-size: 2em;
+    }
+
+    .accueil a {
+        font-size: 1.5em;
+        margin-top: 1rem;
+    }
+
+    /* BLOC 1 */
+    #bloc1 {
+        border: 1px solid violet;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #wrapper-bloc1 {
+        width: 100%;
+        max-width: 600px; /* or adjust as needed */
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #wrapper-bloc1 img {
+        width: 40%;
+        max-width: 40%;
+        order: 1;
+    }
+
+    #bloc1 h2 {
+        font-size: 2em;
+    }
+
+    #wrapper-bloc1 p {
+        font-size: 1em;
+        margin-top: 1rem;
+        order: 2;
+    }
+
+    /* BLOC 2*/
+
+    .projet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    #bloc2{
+        height: auto;
+    }
+    #bloc2Projet2 img{
+        order: 1;
+    }
+    #bloc2Projet2 .description-projet{
+        order: 2;
+    }
+    .description-projet{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* FIN BLOC 2*/
+}
