@@ -1,0 +1,18 @@
+/* 767px.css */
+@media only screen and (max-width: 767px) {
+    /* ACCUEIL */
+    body{
+        text-align: center;
+    }
+    .bloc{
+        align-items: center;
+        text-align: center;
+    }
+    .bloc p{
+        text-align: left;
+    }
+    .bloc ul{
+        align-self: flex-start;
+        text-align: left;
+    }
+}

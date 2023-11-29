@@ -20,6 +20,14 @@ h1,h2,h3{
     font-family: 'CustomFont';
 }
 
+h1{
+    font-size: 6em;
+}
+
+h2,h3{
+    font-size: 2.5em;
+}
+
 body{
     display: flex;
     flex-direction: column;
