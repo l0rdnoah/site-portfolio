@@ -9,7 +9,8 @@ function reveal() {
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
       } else {
-        reveals[i].classList.remove("active");
+        //reveals[i].classList.remove("active"); désactivé car je veux pas que ça reparte quand je remonte
+        // on affiche une fois et c'est bon
       }
     }
   }

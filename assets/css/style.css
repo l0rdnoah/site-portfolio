@@ -58,6 +58,17 @@ body {
     text-align: justify;
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
 /* FIN GENERAL* /
 
 /* CONTENEUR ACCUEIL */
@@ -206,18 +217,3 @@ footer a:hover{
     color: rgb(255, 195, 195);
 }
 /* FIN FOOTER */
-
-
-
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-}
