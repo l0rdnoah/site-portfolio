@@ -1,8 +1,23 @@
 /* GENERAL */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/ThaleahFat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito.ttf') format('truetype');
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: #1c050f;
+}
+
+h1,h2,h3{
+    font-family: 'CustomFont';
 }
 
 body{
@@ -10,6 +25,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('../img/bg7.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bloc{
@@ -17,8 +35,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid black;
     width: 100vw;
     padding: 30px;
 }
+p{
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+ul li{
+    list-style: none;
+}
+
 /* FIN GENERAL */
